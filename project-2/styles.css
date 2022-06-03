@@ -1,0 +1,36 @@
+.h{
+   background-color: black;
+   color: white;
+   border-bottom: 1px solid grey;
+}
+
+.lnk{
+    text-align: center;
+    display: block;
+    margin-left: 40px;
+}
+
+img{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-left: 500px;
+    display: block;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+
+em, strong {
+    display: inline;
+  }
