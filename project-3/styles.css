@@ -15,7 +15,6 @@ p{
 .background{
     display: block;
     margin: 20px auto;
-    width: 800px;
     height: 600px;
     background-image: url('images/на-заход.jpg');
     background-size: cover;
