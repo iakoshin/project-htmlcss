@@ -1,0 +1,73 @@
+h1{
+    background-color: burlywood;
+    color: white;
+}
+
+h2{
+    background-color: white;
+    color: black;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.background{
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    height: 600px;
+    background-image: url('images/на-заход.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+a{
+    display: flex;
+    background-color: burlywood;
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    color: #fff;
+    background-color: burlywood;
+  }
+
+.menu-links{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.footer-item1 {
+    height: 40px;
+    width: 120px;
+    background-color:burlywood;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.footer-item2 {
+    height: 40px;
+    width: 80px;
+    background-color:burlywood;
+    background-image: url('images/wr-960.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
