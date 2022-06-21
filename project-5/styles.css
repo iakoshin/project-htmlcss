@@ -3,32 +3,34 @@
     padding:0;
 }
 
-h1{
+h1 {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:larger;
     margin-left: 20px;
 }
 
-.top-block{
+.top-block {
     display: flex;
     position: fixed;
     justify-content:space-between;
-    width: 1200px;
-    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
-a{
+a {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .background {
-    display:block;
-    margin-top: 60px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 60px;
     height: 500px;
     background-image: url('images/POL_RUS.png');
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -70,26 +72,20 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  .menu{
+  .menu {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
     margin-bottom: 60px;
   }
 
-  img{
+  img {
       height: 200px;
       width: 80px;
   }
 
-  .lowest-block {
-    display:flex;
+  .low-block-flex {
+    display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px solid burlywood;
-    height: 250px;
-    width: 600px;
-    margin-bottom: 20px;
-    border-radius: 20px;
 }
