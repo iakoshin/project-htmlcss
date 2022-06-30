@@ -70,3 +70,18 @@ h1 {
         align-items: center;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 40%;
+        border: solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
