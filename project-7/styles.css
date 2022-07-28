@@ -41,19 +41,18 @@ img {
 }
 
 .block {
-    display:block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
     border: solid lightslategrey;
-    height: 600px;
-    width: 250px;
     margin-bottom: 20px;
+    align-items:flex-start;
 }
 
 .block-flex {
     display: flex;
     border: solid lightslategrey;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .footer {
