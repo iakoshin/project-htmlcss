@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    position: fixed;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color:pink;
+    list-style-type: none;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+} 
+
+.background{
+    display: block;
+    height: 600px;
+    background-image: url('images/linii-background-fon-geometriia-abstraktsiia-tochki-sinii.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: plum;
+    width: 100%;
+  }
+  
+  .form-row input[type='text'],
+  .form-row input[type="email"],
+  .form-row select {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 30%;
+    padding: 7px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-appearance: none; 
+  }
+  
+  .form-row label {
+    margin-bottom: 15px;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  
+  .form-row button:hover {
+    background-color: lightblue;
+  }
+  
+  .form-row button:active {
+    background-color: lightskyblue;
+  }
+
+footer {
+    height: 120px;
+    display: flex;
+    background-color: pink;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+  }

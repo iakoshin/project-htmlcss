@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Project 8</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav> 
+        <ul>
+          <li><a href="#">ОБО МНЕ</a></li>
+          <li><a href="#">МОИ ПРОЕКТЫ</a></li>
+          <li><a href="#">ПРОГРАММА ОБУЧЕНИЯ</a></li>
+          <li><a href="#">МЕНЮ</a></li>
+        </ul>
+      </nav>
+        <div class="background"></div>
+    <form action="https://formspree.io/f/mqkjzdrw"
+          method="POST">
+        <div class="form-row">
+            <label for="full-name">Ваше имя</label>
+            <input id="full-name" name="full-name" type="text"/>
+        </div>
+        <div class="form-row">
+            <label for="city">Ваш город</label>
+            <input id="city" name="city" type="text"/>
+        </div>
+        <div class="form-row">
+            <label for="email">Почта</label>
+            <input id="email"
+              name="email"
+              type="email"
+              placeholder="xxx@example.com"/>
+        </div>
+        <div class="form-row">
+            <label for="interest">Что Вас заинтересовало?</label>
+            <select id="interest" name="interest">
+              <option value="1">Обучение</option>
+              <option value="2">Коворкинг</option>
+              <option value="3">Не знаю, свяжитесь со мной</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label class="checkbox-label" for="available">
+            <input id="available"
+              name="available"
+              type="checkbox"
+              value="is-available"/>
+            <span>Согласен на обработку персональных данных</span>
+            </label>
+        </div>
+        <div class="form-row">
+            <button>Отправить</button>
+        </div>
+    </form>
+        <footer> 
+        <p>ОБУЧЕНИЕ И КОВОРКИНГ</p>
+        <p>НАЗАД</p>
+        </footer> 
+  </body>
