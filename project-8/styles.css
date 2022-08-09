@@ -29,10 +29,13 @@ a:hover{
 
 .background{
     display: block;
-    height: 600px;
+    height: auto;
     background-image: url('images/linii-background-fon-geometriia-abstraktsiia-tochki-sinii.jpg');
     background-size: cover;
     background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 20px;
 }
 
 .form-row {
@@ -41,8 +44,7 @@ a:hover{
     flex-direction: column;
     flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    background-color: plum;
+    color: white;
     width: 100%;
   }
   
@@ -85,7 +87,7 @@ a:hover{
   }
 
 footer {
-    height: 120px;
+    height: 80px;
     display: flex;
     background-color: pink;
     justify-content: space-around;
@@ -96,3 +98,11 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white
   }
+
+  @media only screen and (max-width: 600px) {
+
+.form-row button {
+    width: 30%;
+}
+  }
+
