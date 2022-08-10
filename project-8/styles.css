@@ -45,7 +45,7 @@ a:hover{
     flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    width: 100%;
+    width: 40%;
   }
   
   .form-row input[type='text'],
@@ -54,7 +54,6 @@ a:hover{
     background-color: lightskyblue;
     border: 1px solid black;
     border-radius: 3px;
-    width: 30%;
     padding: 7px;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -74,7 +73,6 @@ a:hover{
     border-radius: 3px;
     padding: 10px 40px;
     cursor: pointer;
-    width: 30%;
     margin-bottom: 10px;
   }
   
@@ -97,12 +95,5 @@ footer {
   p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white
-  }
-
-  @media only screen and (max-width: 600px) {
-
-.form-row button {
-    width: 30%;
-}
   }
 
