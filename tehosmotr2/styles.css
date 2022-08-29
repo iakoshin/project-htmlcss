@@ -11,10 +11,15 @@
     justify-content: space-between;
     width: 100%;
     height: auto;
-    background: lightgray;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-right: 20px;
     color: lightslategray;
+    position: fixed;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+
 }
 
 .info {
@@ -172,7 +177,14 @@ form {
         justify-content: center;
         align-items: center;
     }
-}
+
+    .blocks {
+        display: flex;
+        justify-content: space-between;
+       flex-direction: column;
+    }
+ }
+
 
 @media only screen and (min-width: 599px) {
   .pics{
